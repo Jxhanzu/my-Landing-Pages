@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+</style>
+    <title>Mi CV - Landing Page</title>
+    <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav">
+            <details class="accordion-nav">
+                <summary class="nav-link">Menú</summary>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#inicio" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="#linktree" class="nav-link">Mis Redes</a></li>
+                    <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+                </ul>
+            </details>
+        </nav>
+    </header>
+
+    <section id="inicio" class="section profile-section">
+        <div class="profile-container">
+            <img src="./Linda.png.jpeg" alt="Tu Foto de Perfil" class="profile-photo">
+            <h1 class="profile-name">Linda Valentina Serrano Madrid</h1>
+            <p class="profile-summary">
+                Soy estudiante de grado 11 y estoy en una etapa en la que no solo me enfoco en aprender contenidos académicos, sino también en fortalecer mis habilidades personales. Me considero una persona responsable, empática y con buena disposición para el trabajo en equipo. Trato de organizar mi tiempo para cumplir con mis deberes y me esfuerzo por comunicarme de forma clara y respetuosa con mis compañeros y profesores. Sé adaptarme a los cambios y siempre busco aprender de cada experiencia, porque entiendo que crecer como persona es tan importante como avanzar en lo académico.
+            </p>
+            <div class="contact-info">
+                <p><strong>Correo:</strong><a href="lindaserrano909@gmail.com">lindaserrano909@gmail.com</a></p>
+                <p><strong>Teléfono:</strong><a href="http://wa.me/+57 300 1906835" target="_blank" rel="noopener noreferrer">+57 300 1906835</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Estudios y Experiencia</h2>
+        <div class="section-content">
+            <h3>Estudios Realizados</h3>
+            <ul class="list">
+                <li>
+                    <h4>Basica Primaria | 1 la gran sabiduría 
+Segundo, y tercero divino niño
+Cuarto y quinto liceo Jesus de Nasareth</h4>
+                    
+                    <P>Descripción: etapa formativa en la que los niños desarrollan sus primeras herramientas académicas, emocionales y sociales para continuar su educación con una base sólida.</P>
+                </li>
+                <li>
+                    
+                    
+                    
+                </li>
+            </ul>
+
+            <h3>Experiencia Laboral</h3>
+            <ul class="list">
+                <li>
+                    <h4>Ninguna</h4>
+                    
+                </li>
+                <li>
+                    
+                    
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section skills-section">
+        <h2 class="section-title">Habilidades</h2>
+        <div class="skills-container">
+            <div class="skill-group">
+                <h3>Habilidades Técnicas</h3>
+                <ul class="list-inline">
+                    <li>Digitalización de documentos (escanear, convertir a PDF, etc.)</li>
+                    <li>Uso de plataformas de aprendizaje virtual (Moodle, Classroom, Edmodo)</li>
+                    
+                    <li>Creación de presentaciones interactivas (Genially, Prezi)</li>
+                    <li>Manejo avanzado de Microsoft Office (Word, Excel, PowerPoint)</li>
+                    <li>Diseño Responsivo</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h3>Habilidades Blandas</h3>
+                <ul class="list-inline">
+                    <li>Trabajo en Equipo</li>
+                    <li>Resolución de Problemas</li>
+                    <li>Comunicación Efectiva</li>
+                    <li>Aprendizaje Rápido</li>
+                    <li>Atención al detalle</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="linktree" class="section linktree-section">
+        <h2 class="section-title">Mis Redes y Proyectos</h2>
+        <div class="linktree-container">
+            <img src="./Linda.png.jpeg" alt="Tu Foto de Perfil" class="profile-photo">
+            <a href="lmadrid" target="_blank" class="linktree-link"><strong>tiktok</strong></a>
+            <a href="linda_valentina5" target="_blank" class="linktree-link"><strong>Instagram</strong></a>
+            </div>
+    </section>
+
+    <section id="contacto" class="section contact-section">
+        <h2 class="section-title">Contáctame</h2>
+        <form action="https://formspree.io/f/tu-email-de-formspree" method="POST" class="contact-form">
+            <input type="text" name="nombre" placeholder="Tu Nombre" required>
+            <input type="email" name="_replyto" placeholder="Tu Correo Electrónico" required>
+            <textarea name="mensaje" placeholder="Tu Mensaje" rows="5" required></textarea>
+            <button type="submit" class="submit-button">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Linda Serrano <br> Todos los derechos reservados.</p>
+        <p>Desde el ❤️ del CASD para todo el mundo</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
