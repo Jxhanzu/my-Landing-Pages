@@ -4,7 +4,7 @@
     --secondary-color: #0079FF;
     --text-color: #00FFA5;;
     --background-color: #4571A1;
-    --light-gray: #FFFFFF;
+    --light-gray: #4571A1;
 }
 
 
@@ -50,7 +50,7 @@ body {
     list-style: none;
     cursor: pointer;
     padding: 0.5rem 1rem;
-    background-color: var(--primary-color);
+    background-color: #4571A1;
     color: white;
     border-radius: 5px;
 }
@@ -63,7 +63,7 @@ body {
     display: flex;
     position: absolute;
     right: 0;
-    background-color: var(--secondary-color);
+    background-color: #4571A1;
     padding: 1rem;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
@@ -101,7 +101,7 @@ body {
 /*Color y tamaño del area para la foto de perfil y resumen*/
 .profile-section {
     padding-top: 100px; /* Espacio para el header fijo */
-    background-color: rgb(243, 243, 243);
+    background-color: #4571A1;
 }
 
 /*Tamaño del titulo para estudios y experiencia*/
@@ -152,7 +152,7 @@ body {
 /*Sección para cambiar colores de fondo, tamaño de letra y alineación del texto o contenedores
 del area de Estudios realizados y experiencia laboral*/
 .list li {
-    background-color: rgb(210, 238, 205);
+    background-color: #4571A1;
     border-left: 5px solid var(--primary-color);
     padding: 1rem;
     margin-bottom: 1rem;
@@ -278,6 +278,7 @@ del area de Estudios realizados y experiencia laboral*/
     }
 
 }
+
 
 
 
