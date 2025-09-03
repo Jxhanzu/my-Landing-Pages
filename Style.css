@@ -235,15 +235,15 @@ del area de Estudios realizados y experiencia laboral*/
 
 /*Para cambiar el efecto de color al pasar el mouse por el boton de "Enviar Mensaje"*/
 .submit-button:hover {
-    background-color: #576066;
+    background-color: #000000;
 }
 
 /* Footer */
 .footer {
     text-align: center;
     padding: 1rem;
-    background-color: var(--secondary-color);
-    color: white;
+    background-color: #0079FF;
+    color: #0079FF;
 }
 
 /* Media Queries para responsividad  ¡¡¡No tocar, nos da diseño responsive!!! */
@@ -278,6 +278,7 @@ del area de Estudios realizados y experiencia laboral*/
     }
 
 }
+
 
 
 
